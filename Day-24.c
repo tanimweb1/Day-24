@@ -84,21 +84,21 @@ printf("%d nota(s) de R$ 1,00\n",taka1);
 
 
 
-// bee 1019
-int n,ghonta,minit,value,second;
-scanf("%d",&n);
+    // bee 1019
+    int n,ghonta,minit,value,second;
+    scanf("%d",&n);
 
-ghonta = n/3600;
+    ghonta = n/3600;
 
-value = n%3600;
+    value = n%3600;
 
-minit = value/60;
+    minit = value/60;
 
-value = value%60;
+    value = value%60;
 
-second = value;
+    second = value;
 
-printf("%d : %d : %d ", ghonta,minit,second);
+    printf("%d:%d:%d\n", ghonta, minit, second);
     
 
 
@@ -106,6 +106,7 @@ printf("%d : %d : %d ", ghonta,minit,second);
     return 0; 
 
 }
+
 
 
 
