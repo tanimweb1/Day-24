@@ -25,8 +25,18 @@ printf("%d minutos\n", x*2);
 
 
 
+       // bee 1017
+
+    int spent, average, distance;
+    scanf("%d%d", &spent, &average);
+
+    distance = spent * average;
+
+    printf("%0.3lf\n", distance / 12.0); 
+
 
 
     return 0; 
 
 }
+
