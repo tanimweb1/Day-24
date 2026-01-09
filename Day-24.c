@@ -99,6 +99,28 @@ printf("%d nota(s) de R$ 1,00\n",taka1);
     second = value;
 
     printf("%d:%d:%d\n", ghonta, minit, second);
+
+
+
+
+
+        // bee 1020
+    int n,day,month,year,value;
+    scanf("%d", &n);
+
+year = n/365;
+
+value = n%365;
+
+month = value/30;
+
+value = value%30;
+
+day = value;
+printf("%d ano(s)\n",year);
+printf("%d mes(es)\n",month);
+printf("%d dia(s)\n",day);
+
     
 
 
@@ -106,6 +128,7 @@ printf("%d nota(s) de R$ 1,00\n",taka1);
     return 0; 
 
 }
+
 
 
 
