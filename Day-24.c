@@ -14,10 +14,19 @@ printf("%0.3f\n", (double)need);
 
 
 
+// Distance beecrowd 
+
+    
+int x;
+scanf("%d",&x);
+
+printf("%d minutos\n", x*2);
+
 
 
 
 
 
     return 0; 
+
 }
